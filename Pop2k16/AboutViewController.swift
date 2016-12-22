@@ -11,13 +11,16 @@ import UIKit
 
 class AboutViewController: UIViewController {
 
-    @IBOutlet var ScrollView: UIScrollView!
+   @IBOutlet var ScrollView: UIScrollView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        ScrollView.contentSize.height = 1000
+        ScrollView.contentSize.height=1000
+        ScrollView.contentSize.width=0
+        
+        
     }
     
 }
