@@ -1,0 +1,6 @@
+framework module Pods_Pop2k16 {
+  umbrella header "Pods-Pop2k16-umbrella.h"
+
+  export *
+  module * { export * }
+}
